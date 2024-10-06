@@ -1,6 +1,6 @@
 # Tic-Tac-Toe-Game
 
-<h4>This is a simple Tic-Tac-Toe game implemented using HTML, CSS, and JavaScript. The game allows two players to take turns selecting boxes, with Player 1 represented by "0" and Player 2 represented by "X". The game automatically checks for a winner based on the classic Tic-Tac-Toe rules, such as matching rows, columns, or diagonals.
+This is a simple Tic-Tac-Toe game implemented using HTML, CSS, and JavaScript. The game allows two players to take turns selecting boxes, with Player 1 represented by "0" and Player 2 represented by "X". The game automatically checks for a winner based on the classic Tic-Tac-Toe rules, such as matching rows, columns, or diagonals.
 
 <h2>Features</h2>
 <ol>
@@ -54,4 +54,4 @@ The game starts with Player 1's turn (Player 1 is "0").
 
 <h2>Contribution</h2>
 If you want to contribute to the project, feel free to fork the repository and submit a pull request. Any improvements, such as adding more features, improving the UI, or optimizing the logic, are welcome!
-</h4>
+
