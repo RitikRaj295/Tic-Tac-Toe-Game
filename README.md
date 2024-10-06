@@ -4,7 +4,7 @@ This is a simple Tic-Tac-Toe game implemented using HTML, CSS, and JavaScript. T
 
 <h2>Features</h2>
 <ol>
-<li>9 interactive boxes arranged in a 3x3 grid.</li>
+<li>Nine interactive boxes arranged in a 3x3 grid.</li>
 <li>Two players can play alternately.</li>
 <li>Player 1 selects a box and the inner text becomes "0".</li>
 <li>Player 2 selects a box and the inner text becomes "X".</li>
@@ -12,7 +12,7 @@ This is a simple Tic-Tac-Toe game implemented using HTML, CSS, and JavaScript. T
 </ol>
 <h2>How to Play</h2>
 <ol>
-The game starts with Player 1's turn (Player 1 is "0").
+<li>The game starts with Player 1's turn (Player 1 is "0").</li>
 <li>Click on any empty box in the 3x3 grid.</li>
 <li>If it's Player 1's turn, the box's text will become "0".</li>
 <li>If it's Player 2's turn, the box's text will become "X".</li>
@@ -42,12 +42,8 @@ The game starts with Player 1's turn (Player 1 is "0").
 <h2>To run this project locally:</h2>
 <ol>
 <li>Clone the repository:</li>
-//bash
-//Copy code
 <p>git clone https://github.com/your-username/tic-tac-toe.git</p>
 <li>Navigate to the project directory:</li>
-//bash
-//Copy code
 <p>cd tic-tac-toe</p>
 <li>Open index.html in your browser to start playing the game.</li>
 </ol>
