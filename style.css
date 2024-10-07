@@ -10,7 +10,7 @@ body{
     justify-content: center;
     align-items: center;
     background-color: rgb(12, 133, 105);
-    color: rgb(102, 255, 0);
+    color: rgb(18, 51, 79);
 }
 .heading{
     display: flex;
@@ -19,22 +19,32 @@ body{
     align-items: center;
 }
 .big-T{
-    font-size: 6.5rem;
+    font-size: 6rem;
     
 }
 
 .sub-heading{
     font-size: 1.4rem;
-    font-weight: bold;
-    margin-right: 6vw;
+    font-weight: 1000;
+    margin-right: 2vw;
     margin-left: 1vw;
     display: flex;
+    max-height: 20vh;
+    flex-wrap: wrap;
     flex-direction: column;
-    justify-content: stretch;
-    align-items: stretch;
+    justify-content:center;
+    align-items: center;
 }
 h1{
     font-size: 4rem;
+}
+.scoreMsg{
+    margin-bottom:3vh;
+    margin-top: 1vh;
+    font-size: 1.2rem;
+    color:greenyellow;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight:500;
 }
 
 .container{
@@ -47,15 +57,29 @@ h1{
     flex-wrap: wrap;
     gap: 1vh;
 }
+
+
 .container>button{
     height: 18vh;
-    width: 18vw;
+    width: 15vw;
     border: 1px solid rgb(98, 207, 167);
     border-radius: 1rem;
     font-size: 3.6rem;
     color: bisque;
     background-color: rgb(31, 30, 30);
 }
+
+.container>button:hover{
+    cursor: pointer;
+}
+
+.container>button:active{
+    background-color: rgb(24, 72, 174);
+    border: 2px solid black;
+    color:white;
+
+}
+
 .resetBtn>button{
    margin: 5vh;
    height: 8vh;
@@ -64,5 +88,55 @@ h1{
    border: 2px solid black;
    border-radius: 2rem;
    font-size: 1.1rem;
+   background-color: bisque;
    
+}
+.resetBtn>button:hover{
+    cursor: pointer;
+
+}
+.resetBtn>button:active{
+   opacity: .5;
+}
+@media (max-width:400px){
+    .big-T{
+        font-size: 3.7rem;
+        
+    }
+    
+    .sub-heading{
+        font-size: .9rem;
+        font-weight: 1000;
+        margin-right: 5vw;
+        margin-left: 1vw;
+        display: flex;
+        max-height: 20vh;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+    }
+    h1{
+        font-size: 3rem;
+    }
+    .resetBtn>button{
+        margin: 5vh;
+        height: 7vh;
+        width: 30vw;
+        text-align: center;
+        border: 2px solid black;
+        border-radius: 2rem;
+        font-size: 1.1rem;
+        background-color: bisque;
+     }
+     .container>button{
+        height: 18vh;
+        width: 18vw;
+        border: 3px solid rgb(98, 207, 167);
+        border-radius: .3rem;
+        font-size: 3.6rem;
+        color: bisque;
+        background-color: rgb(31, 30, 30);
+    }
+    
 }
